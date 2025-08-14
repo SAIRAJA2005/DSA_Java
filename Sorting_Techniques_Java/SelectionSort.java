@@ -1,10 +1,11 @@
+
 /*
  * Selection Sort Algorithm Implementation in Java
  * This program sorts an array of integers using the Selection Sort algorithm.
  * It includes methods for displaying the array, swapping elements, and performing the selection sort.
  * The main method initializes an array, displays it, sorts it using Selection Sort, and then displays the sorted array.
  *
- * Algorithm:
+ * Algorithm Implementation : 
  * 1. Iterate through the array, assuming the first element is the minimum.
  * 2. For each element, compare it with the rest of the elements to find the minimum.  
  * 3. Swap the found minimum element with the first element of the unsorted part of the array.
@@ -54,4 +55,5 @@ public class SelectionSort{
         System.out.println("Final Sorted array after selection after: ");
         display(arr); // Using the existing display method to print the sorted array
     }
+
 }
